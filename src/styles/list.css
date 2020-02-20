@@ -1,0 +1,31 @@
+h2 {
+  background: rgb(122, 179, 58);
+  border-bottom: 2px solid rgb(93, 145, 34);
+  padding: 15px 10px;
+  text-align: left;
+  color: white;
+  margin: 0;
+}
+
+.userLink {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.userLink li {
+  border-bottom: 1px solid #ccc;
+}
+
+.userLink li a {
+  display: flex;
+  margin: 5px 0;
+}
+
+.userLink li a img {
+  border-radius: 50%;
+}
+
+.userLink li a p {
+  padding-left: 10px;
+}

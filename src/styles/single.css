@@ -1,0 +1,43 @@
+header {
+  background: rgb(122, 179, 58);
+  text-align: center;
+  position: relative;
+}
+
+header button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: transparent;
+  border: 0;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 20px;
+  outline: 0;
+}
+
+header img {
+  margin: 50px 0;
+  border-radius: 50%;
+}
+
+.single {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.single li {
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  padding: 20px 0;
+}
+
+.single p {
+  padding-left: 10px;
+}
+
+.single svg {
+  margin-right: 15px;
+}
